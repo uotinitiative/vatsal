@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Vatsal — Philosopher & Entrepreneur</title>
+    <style>
+      :root {
+        color-scheme: light only;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background-color: #ffffff;
+        color: #111111;
+        font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua",
+          Garamond, serif;
+        font-size: 18px;
+        line-height: 1.7;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      .page {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 72px 24px 96px;
+        display: grid;
+        gap: 64px;
+      }
+
+      header {
+        display: grid;
+        gap: 16px;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(3rem, 5vw, 3.8rem);
+        letter-spacing: -0.02em;
+      }
+
+      .tagline {
+        margin: 0;
+        font-size: 1.1rem;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+
+      main {
+        display: grid;
+        gap: 48px;
+      }
+
+      section {
+        display: grid;
+        gap: 16px;
+      }
+
+      h2 {
+        margin: 0;
+        font-size: 1.5rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        font-weight: 600;
+      }
+
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: grid;
+        gap: 12px;
+      }
+
+      a {
+        color: #2059ff;
+        text-decoration: none;
+        transition: color 150ms ease-in;
+      }
+
+      a:hover,
+      a:focus {
+        color: #0f3dcc;
+      }
+
+      a:focus-visible {
+        outline: 2px solid currentColor;
+        outline-offset: 4px;
+      }
+
+      .subtle {
+        color: #555;
+      }
+
+      footer {
+        font-size: 0.95rem;
+        color: #555;
+      }
+
+      @media (max-width: 640px) {
+        .page {
+          padding-top: 56px;
+          gap: 48px;
+        }
+
+        h1 {
+          font-size: clamp(2.6rem, 9vw, 3.2rem);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <header>
+        <h1>Vatsal</h1>
+        <p class="tagline">Philosopher & entrepreneur</p>
+        <p>
+          I explore ideas about freedom, morality, and shared cultural life while
+          building ventures that expand access to knowledge and experience.
+        </p>
+      </header>
+      <main>
+        <section>
+          <h2>Writing</h2>
+          <ul>
+            <li>
+              I publish long-form essays at
+              <a href="https://www.readvatsal.com" target="_blank" rel="noreferrer"
+                >Vatsal's Newsletter</a
+              >, reflecting on philosophy, ethics, and the civic imagination.
+            </li>
+            <li>
+              I host conversations with leading minds on
+              <a
+                href="https://www.readvatsal.com/podcast"
+                target="_blank"
+                rel="noreferrer"
+                >Vatsal's Podcast</a
+              >, tracing ideas across disciplines and geographies.
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h2>Ventures</h2>
+          <ul>
+            <li>
+              Founder of the
+              <a href="http://uotinitiative.org" target="_blank" rel="noreferrer"
+                >Universal Open Textbook Initiative</a
+              >, building the world's largest collection of high-quality,
+              multilingual, open textbooks.
+            </li>
+            <li>
+              Creator of
+              <a href="http://aestht.co" target="_blank" rel="noreferrer"
+                >aestht</a
+              >, a space to catalogue and share diverse cultural experiences in
+              one app.
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h2>Book</h2>
+          <p>
+            Author of
+            <a
+              href="https://www.amazon.com/Freedom-Morality-Vatsal/dp/0998257389"
+              target="_blank"
+              rel="noreferrer"
+              >Freedom and Morality</a
+            >, a meditation on responsibility, agency, and the ethics of freedom.
+          </p>
+        </section>
+      </main>
+      <footer>
+        <span class="subtle">© Vatsal</span>
+      </footer>
+    </div>
+  </body>
+</html>
